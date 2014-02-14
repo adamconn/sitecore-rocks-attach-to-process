@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AttachToProcess</id>
+    <version>1.0.0</version>
+    <title>Attach to Process</title>
+    <authors>Adam Conn</authors>
+    <owners>Adam Conn</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds the ability to attach the Visual Studio debugger to the w3wp process that corresponds to a Sitecore connection.</description>
+    <copyright>Copyright © Adam Conn</copyright>
+    <tags>Debug</tags>
+  </metadata>
+  <files>
+    <file src="C:\Users\adc\Documents\Visual Studio 2013\Projects\Sitecore.Rocks.AttachToProcess\Sitecore.Rocks.AttachToProcess\bin\Sitecore.Rocks.AttachToProcess.dll" target="Sitecore.Rocks\v1.0.0.0\Sitecore.Rocks.AttachToProcess.dll" />
+    <!--<file src="C:\Users\adc\Documents\Visual Studio 2013\Projects\Sitecore.Rocks.AttachToProcess\Sitecore.Rocks.AttachToProcess\bin\Sitecore.Rocks.AttachToProcess.pdb" target="Sitecore.Rocks\v1.0.0.0\Sitecore.Rocks.AttachToProcess.pdb" />-->
+    <file src="C:\Users\adc\Documents\Visual Studio 2013\Projects\Sitecore.Rocks.AttachToProcess\Sitecore.Rocks.Server.AttachToProcess\bin\Sitecore.Rocks.Server.AttachToProcess.dll" target="Sitecore.Rocks\v1.0.0.0\Sitecore.Rocks.Server.AttachToProcess.dll" />
+    <!--<file src="C:\Users\adc\Documents\Visual Studio 2013\Projects\Sitecore.Rocks.AttachToProcess\Sitecore.Rocks.Server.AttachToProcess\bin\Sitecore.Rocks.Server.AttachToProcess.pdb" target="Sitecore.Rocks\v1.0.0.0\Sitecore.Rocks.Server.AttachToProcess.pdb" />-->
+  </files>
+</package>
